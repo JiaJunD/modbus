@@ -33,3 +33,6 @@ if regs:
     print(regs)
 else:
     print("read error")
+
+
+c.close()

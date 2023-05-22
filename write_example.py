@@ -34,4 +34,4 @@ if c.write_multiple_registers(40, random.sample(range(0, 65535), 10)):
 else:
     print("write error")
 
-
+c.close()
